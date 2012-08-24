@@ -1,0 +1,54 @@
+
+
+Benefits of Sass
+-Nesting
+  - Gives us namespacing to organize our CSS
+-Mixins
+  - Keeps your CSS semantic and DRY
+-Variables
+  - Makes it easy to change colors
+-Compiled
+  - Syntax errors
+
+
+Structuring our CSS
+- Sprockets asset pipeline vs Sass @import
+- Bourbon
+- Mixins
+- Variables
+- Global
+- Views
+
+Your stylesheet folder should replicate your view folder
+
+
+CSS namespacing
+
+
+
+Bourbon
+-Lightweight CSS mixins
+
+-Alternatives
+-Compass
+-Zurb
+-Bootstrap
+
+
+Clearfix
+
+
+HTML5 Input Types
+
+
+Bourbon
+-No more vendor prefixes
+
+
+
+
+Sprites are so 2010
+- Image-url image-url("rails.png") becomes url(/assets/rails.png)
+- Use asset-image-url
+  - asset-data-url("rails.png") becomes url(data:image/png;base64,iVBORw0K...)
+-Sass documentation
